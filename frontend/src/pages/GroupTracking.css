@@ -1,0 +1,54 @@
+.group-tracking-container {
+    position: relative;
+  }
+  
+  .toggle-style-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    padding: 10px;
+    background-color: #ffffffcc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .user-avatar {/* GroupTracking.css – Stylish background and animation */
+
+    .group-tracking-container {
+      background: url('/public/Images/2.jpg') no-repeat center center fixed;
+      background-size: cover;
+      min-height: 100vh;
+      padding: 3rem 0;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    
+    .group-tracking-panel {
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(10px);
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(40px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid white;
+  }
+  
+  .tooltip {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
